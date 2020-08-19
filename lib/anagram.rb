@@ -12,6 +12,7 @@ def match(array)
       return scrambledword
     end
   end
+end
 
 end
 
