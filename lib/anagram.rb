@@ -14,3 +14,6 @@ def match(array)
   end
 
 end
+
+hey = Anagram.new("hello")
+puts hey.match(%w(enlists google llohe inlets banana))
