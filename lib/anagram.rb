@@ -10,8 +10,9 @@ def match(array)
 
   array.each do | scrambledword |
     sortedletters = scrambledword.split("").sort
+    sortedword = @word.split("").sort
     binding.pry
-    if sortedletters == @word
+    if sortedletters == sortedword
 
       return scrambledword
     end
