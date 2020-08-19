@@ -1,7 +1,7 @@
 # Your code goes here!
 class Anagram
 
-def initialization(word)
+def initialize(word)
   @word = word
 end
 
