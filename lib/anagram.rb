@@ -7,10 +7,12 @@ def initialize(word)
 end
 
 def match(array)
+
   array.each do | scrambledword |
     sortedletters = scrambledword.split("").sort
+    binding.pry
     if sortedletters == @word
-      binding.pry
+
       return scrambledword
     end
   end
