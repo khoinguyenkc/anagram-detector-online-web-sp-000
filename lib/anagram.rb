@@ -9,6 +9,7 @@ def match(array)
   array.each do | scrambledword |
     sortedletters = scrambledword.split("").sort
     if sortedletters == @word
+      binding.pry
       return scrambledword
     end
   end
